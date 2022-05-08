@@ -5,16 +5,18 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .left-header {
     margin-left: 10em;
+    flex-basis: 100px;
 }
 
 .right-header {
     margin-right: 100px;
 }
+
 .links {
     display: flex;
     list-style: none;
