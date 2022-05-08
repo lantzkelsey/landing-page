@@ -4,17 +4,17 @@
     color: #E5E7EB;
     display: flex;
     padding: 10px;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .left-header {
-    margin-left: 10em;
-    flex-basis: 100px;
+    margin-left: 8em;
+    
 }
 
 .right-header {
-    margin-right: 100px;
+    margin-left: 600px;
+    margin-right: 50px;
 }
 
 .links {
@@ -27,4 +27,16 @@
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
 }
