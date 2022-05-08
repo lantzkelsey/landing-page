@@ -1,0 +1,28 @@
+.header {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-header {
+    margin-left: 10em;
+}
+
+.right-header {
+    margin-right: 100px;
+}
+.links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
